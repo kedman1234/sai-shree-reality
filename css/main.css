@@ -223,8 +223,14 @@ ul.nostyle i {
 #main-slider {
   overflow: hidden;
 }
+#main-slider .item .msg-box{
+  display: inline-block;
+  padding: 15px;
+  background: rgba(225,225,225,0.7);
+  margin-top: 180px;
+}
 #main-slider .item {
-  height: 558px;
+  height: 600px;
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -238,7 +244,7 @@ ul.nostyle i {
   color: #333;
 }
 #main-slider .slider-inner h2 {
-  margin-top: 180px;
+  /* margin-top: 180px; */
   font-size: 36px;
   line-height: 1;
   text-transform: uppercase;

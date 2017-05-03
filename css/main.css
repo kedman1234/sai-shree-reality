@@ -186,7 +186,7 @@ ul.nostyle i {
   #main-menu.navbar-default .dropdown-menu {
     padding: 0 20px;
     min-width: 220px;
-    background-color: rgba(26, 28, 40, 0.9);
+    background-color: rgba(225, 225, 225, 0.9);
     border: 0;
     border-radius: 0;
     box-shadow: none;
@@ -201,9 +201,9 @@ ul.nostyle i {
     transition: border-color 400ms;
   }
   #main-menu.navbar-default .dropdown-menu > li > a {
-    border-top: 1px solid #404455;
+    border-top: 1px solid #ccc;
     padding: 15px 0;
-    color: #eeeeee;
+    color: #333;
   }
   #main-menu.navbar-default .dropdown-menu > li:first-child > a {
     border-top: 0;

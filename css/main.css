@@ -336,6 +336,28 @@ ul.nostyle i {
 #cta2 h2 > span {
   color: #45aed6;
 }
+
+
+
+/* projects */
+#our-projects {
+  background-image: url(../images/projects/projects-bg.jpg);
+  color: #fff;
+  padding-top: 70px;
+}
+#our-projects .btn {
+  margin-top: 10px;
+}
+#our-projects h2 {
+  color: #fff;
+  font-size: 44px;
+  line-height: 1;
+}
+#our-projects h2 > span {
+  color: #45aed6;
+}
+/* projects */
+
 #features {
   padding: 100px 0;
 }

@@ -229,6 +229,24 @@ ul.nostyle i {
   background: rgba(225,225,225,0.8);
   margin-top: 180px;
 }
+
+.p-head{ 
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000;
+ }
+#main-slider .item .msg-strip{
+  padding: 15px;
+  color:  #fff;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  min-height: 60px;
+  background-color: rgba(0,0,0,.6);
+}
+
+
 #main-slider .item {
   height: 600px;
   background-repeat: no-repeat;
@@ -287,6 +305,30 @@ ul.nostyle i {
   right: -35px;
   text-indent: -14px;
 }
+
+
+#sub-nav nav{
+  background: rgba(0,0,0,.8);
+  text-align: center;
+}
+
+#sub-nav nav ul{ list-style-type: none; display: inline-block;  }
+#sub-nav nav ul li{ display: inline-block; padding: 10px 15px; }
+#sub-nav nav ul li a, 
+#sub-nav nav ul li a:hover,
+#sub-nav nav ul li a:visited,
+#sub-nav nav ul li a:focus
+{  
+  color: #fff;
+}
+#sub-nav nav ul li a:hover,
+#sub-nav nav ul li a:visited,
+#sub-nav nav ul li a:focus
+{  
+  text-decoration: underline;
+}
+
+
 #bar {
   width: 0%;
   max-width: 100%;
@@ -973,4 +1015,20 @@ ul.nostyle i {
 .form-control {
   box-shadow: none;
   -webkit-box-shadow: none;
+}
+
+
+
+.project-details{
+  padding: 100px 0;
+}
+
+section.project-details:nth-child(odd){
+  background: #f5f5f5 !important;
+}
+section.project-details:nth-child(even){
+  background: #ffffff !important;
+}
+#location-map{
+  padding-bottom: 0;
 }

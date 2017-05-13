@@ -4,6 +4,12 @@ jQuery(function($) {'use strict';
 	$(window).scroll(function(event) {
 		//Scroll();
 		//not needed as we are not using the single page website
+
+		if( $(window).scrollTop() > $('#sub-nav').offset().top && !($('#sub-nav').hasClass('sub-navfix'))){
+	    $('#sub-nav').addClass('sub-navfix');
+	    } else if ($(window).scrollTop() == 0){
+	    $('#sub-nav').removeClass('sub-navfix');
+	    }
 	});
 
 /*	

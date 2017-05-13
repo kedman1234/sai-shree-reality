@@ -1020,7 +1020,7 @@ ul.nostyle i {
 
 
 .project-details{
-  padding: 100px 0;
+  padding: 200px 0 100px;
 }
 
 section.project-details:nth-child(odd){
@@ -1033,6 +1033,14 @@ section.project-details:nth-child(even){
   padding-bottom: 0;
 }
 
+/* Sub Nav fix */
+
+.sub-navfix{
+  position: fixed;
+  top: 100px;
+  width: 100%;
+  z-index: 9;
+}
 
 
 

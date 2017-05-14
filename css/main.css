@@ -33,6 +33,14 @@ a {
   -o-transition: color 400ms, background-color 400ms;
   transition: color 400ms, background-color 400ms;
 }
+
+.text-grey, a.text-grey{
+  color: #808080 !important;
+}
+a.text-grey:hover,
+a.text-grey:focus {
+  color: #ffffff !important; 
+}
 a:hover,
 a:focus {
   text-decoration: none;
